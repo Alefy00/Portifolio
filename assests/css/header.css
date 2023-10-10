@@ -1,0 +1,84 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header .foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .title{
+    text-align: center;
+    font-family: "Neue", "Open Sans";
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.information p{
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.125rem;
+
+}
+.information p::before{
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    
+    
+}
+
+.information a{
+    color:white;
+}
+
+.information  .icone::before{
+    background-image: url(/assests/img/icons/icone.svg);
+}
+.information .localização::before{
+    background-image: url(/assests/img/icons/localizaçao.svg);
+}
+.information .email::before{
+    background-image: url(/assests/img/icons/email.svg);
+}
+.information .whats::before{
+    background-image: url(/assests/img/icons/whats.svg);
+}
+
+@media only screen and (min-width: 768px){
+   
+    .header{
+        display: grid;
+        grid-template-areas: "foto title " "foto information";
+    }
+    .header{
+        flex-direction: row ;
+        
+    }
+
+    .header .foto{
+        grid-area: foto;
+        margin: 0 auto;
+    }
+    .header .title{
+        grid-area: title;
+        text-align: start;
+        max-width: 220px;
+    }
+    .header .information{
+        grid-area: information;
+    }
+    
+}

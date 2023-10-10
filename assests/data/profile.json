@@ -1,0 +1,67 @@
+{
+    "name": "Alefy de Sousa Xavier",
+    "photo": "https://avatars.githubusercontent.com/u/103596986?s=400&u=61edc8de41a5b84a84df4ece5a02b501d05c3522&v=4",
+    "job": "Front-end Developer",
+    "location": "Brasília - DF",
+    "phone": "(38) 998451799",
+    "email": "alefy_sx@hotmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Nodejs",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        },
+        {
+          "name": "Java",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        },
+        {
+          "name": "Angular",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        },
+        {
+          "name": "React",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        },
+        {
+          "name": "Mongodb",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        },
+        {
+          "name": "Postgresql",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (iniciante)"
+    
+    ],
+    "portfolio": [
+      {
+        "name": "Criação de uma Pokedex",
+        "url": "https://github.com/Alefy00/Pokedex",
+        "github": true
+      },
+      {
+        "name": "Criação de uma página de portfolio",
+        "url": "https://github.com/Alefy00/js-developer-portfolio",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Front-end Developer",
+        "period": "2022 - até o momento",
+        "description": "Experiência acadêmicas no desenvolvimento front end com foco nas tecnologias mais atuais do mercado "
+      }
+    ]
+  }
